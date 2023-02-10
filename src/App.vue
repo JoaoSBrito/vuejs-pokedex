@@ -24,6 +24,10 @@
   </nav>
 
   <div class="main">
+
+    <div class="logo">
+      <img src="../src/assets/logo.svg" alt=""/>
+    </div>
     <router-view></router-view>
   </div>
 
@@ -41,6 +45,14 @@
     font-family: 'Inter';
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   footer {
     position: fixed;
     bottom: 0;
@@ -49,6 +61,8 @@
     align-items: center;
     justify-content: center;
     height: 3rem;
+
+    background-color: rgba(0, 0, 0, .6);
   }
 
   footer a {
