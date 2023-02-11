@@ -1,5 +1,6 @@
 <template>
-  <div class="about container d-flex align-items-center justify-content-center bg-light rounded-4 ">
+  <div class="container">
+  <div class="about d-flex align-items-center justify-content-center bg-light rounded-4 ">
     <div class="content p-4">
       <h1 class="text-center mt-4">Pokedex</h1>
       <h2>Objetivo: </h2>
@@ -7,6 +8,7 @@
       Foi usado o conceito mobile-first visando resposividade, usado o Bootstrap para auxiliar e facilitar na resposividade e estilos css; usado o vite para criar um ambiente de desenvolviemtno simples e mais rapido; usado fetch para manipular requisições HTTP;
     </div>
   </div>
+</div>
 </template>
 
 <style>

@@ -7,8 +7,8 @@
 </script>
 
 <template>
-  <div class="col-6">
-    <div class="card mb-3 p-2 w">
+  <div class="col-6 col-sm-6 col-lg-3 col-xl-2">
+    <div class="card mb-3 p-2">
       <img 
         class="card-img"
         :src="urlBaseSvg" alt=""
