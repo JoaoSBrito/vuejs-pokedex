@@ -1,5 +1,6 @@
 <script setup>
   const pokemon = defineProps(["name", "urlBaseSvg"])
+  
   const getName= (pokemon) => {
     return pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)
   }
